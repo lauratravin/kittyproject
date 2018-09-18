@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require_relative '../lib/kitty'
+
+CatBreeds::CLI.new.call    #call the Cli file inside kitty folder
